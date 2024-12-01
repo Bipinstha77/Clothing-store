@@ -1,0 +1,151 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  background-color: #363949;
+}
+
+.title {
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: white;
+}
+.container_1 {
+  margin-top: 10rem;
+  margin-left: 6rem;
+  margin-bottom: 15rem;
+  font-weight: 800;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.mid_content {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.card-2 {
+  overflow: hidden;
+  width: calc(25% - 20px);
+  height: 480px;
+  background-color: #eaebed;
+  margin-top: 3rem;
+}
+
+.card-details-2 img {
+  width: 296px;
+  height: 300px;
+}
+.card-details-2 {
+  color: black;
+  height: 100%;
+  gap: 0.5em;
+  display: grid;
+  place-content: center;
+}
+.details {
+  margin-left: 10px;
+  margin-top: -7px;
+  width: fit-content;
+}
+.contact {
+  margin-top: 5rem;
+}
+.contact h1 {
+  color: #fff;
+}
+.about {
+  margin-top: 8rem;
+  background-color: #363949;
+  height: 20rem;
+}
+.about h1 {
+  color: #fff;
+}
+.about-content p {
+  color: #fff;
+}
+.btn {
+  padding: 5px;
+  background-color: #008bf8;
+  border: none;
+  border-radius: 10px;
+  margin-left: 45%;
+  margin-top: 9rem;
+}
+.btn:hover {
+  color: black;
+  background-color: #fff;
+}
+.form h1 {
+  color: #fff;
+}
+.read-more-link {
+  text-decoration: none;
+  width: fit-content;
+
+  color: #fff;
+  background-color: #333;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.add-to-cart-btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #008bf8;
+  padding: 8px 16px;
+  border-radius: 4px;
+  width: fit-content;
+}
+.add-to-cart-btn :hover {
+  background-color: #27408b;
+}
+/* message  */
+.message {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+}
+.message h1 {
+  color: rgb(255, 255, 255);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 800;
+}
+.message form .form-group {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.message form .form-group input {
+  padding: 10px;
+  width: 20rem;
+}
+.message form .form-group textarea {
+  padding: 10px;
+  resize: none;
+}
+.btn-message {
+  margin-left: 1.7rem;
+  padding: 5px;
+  width: 21.5rem;
+  height: 30px;
+  color: #fff;
+  background-color: #3366cc;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-message:hover {
+  background-color: #27408b;
+}
+/* message end  */

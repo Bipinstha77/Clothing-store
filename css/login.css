@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  /* background-color: #363949; */
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: url(../photos/login.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title {
+  font-size: 3em;
+  text-align: center;
+  margin-top: 10px;
+}
+.top {
+  background-color: black;
+  height: 5rem;
+  margin-top: -2rem;
+}
+.top h1 {
+  padding-top: 25px;
+}
+.main {
+  display: grid;
+  grid-template-rows: 80vh;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-left: 35%;
+}
+.login {
+  padding: 20px;
+}
+
+/* form */
+input {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  display: block;
+}
+
+input {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  border: none;
+  font-size: 100%;
+  letter-spacing: 0.2em;
+}
+
+input[type="submit"] {
+  background-color: #86c232;
+  color: white;
+  border: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #000000;
+  color: white;
+}
+
+fieldset {
+  font-size: 20px;
+  /* border-radius: 10px;
+  border-width: 2px;
+  border-style: solid; */
+  border: none;
+}
+form {
+  border-radius: 6px;
+  border-width: 2px;
+  border-style: solid;
+}

@@ -1,0 +1,71 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+body {
+  background-color: #363949;
+}
+.middle {
+  border: 1px solid #000000;
+  border-radius: 6px;
+  width: 20rem;
+  height: fit-content;
+  margin-top: 20px;
+  margin-left: 20rem;
+  padding: 10px;
+}
+h3 {
+  text-align: center;
+  margin-top: 1.5rem;
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: #fff;
+}
+form {
+  margin-top: 20px;
+  flex-wrap: wrap;
+  width: 18rem;
+}
+.form-group {
+  margin-top: 20px;
+}
+.form-group label {
+  margin-left: 20px;
+  color: #fff ;
+}
+.form-group input {
+  margin-left: 20px;
+  border: 1px solid black;
+  padding: 6px;
+  width: 100%;
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+.form-group #myFile {
+  border: none;
+}
+.form-group textarea {
+  margin-left: 20px;
+  border: 1px solid black;
+  padding: 4px;
+  width: 100%;
+  font-weight: 200;
+  font-size: 0.9rem;
+}
+.btn {
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  background-color: #7380ec;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.btn:hover {
+  background-color: greenyellow;
+  color: black;
+}

@@ -1,0 +1,10 @@
+# PHP configuration files
+Admin/conn.php
+
+# IDE files
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db 

@@ -1,0 +1,241 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  /* border: 1px solid red; */
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-image: url("../photos/background.png");
+  background-repeat: no-repeat;
+  background-color: #363949;
+}
+
+.container_1 {
+  margin-top: 10rem;
+  margin-left: 6rem;
+  margin-bottom: 15rem;
+  font-weight: 800;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.container_1 h1 {
+  color: #fff;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 1.6rem;
+}
+.message {
+  margin-top: 5rem;
+  margin-left: 5rem;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2, 1fr);
+}
+.message h1 {
+  color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 800;
+}
+.message form .form-group {
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.message form .form-group input {
+  padding: 10px;
+  width: 20rem;
+}
+.message form .form-group textarea {
+  padding: 10px;
+  resize: none;
+}
+.btn-message {
+  margin-left: 1.7rem;
+  padding: 5px;
+  width: 21.5rem;
+  height: 30px;
+  color: #fff;
+  background-color: #3366cc;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.btn-message:hover {
+  background-color: #27408b;
+}
+.map {
+  width: 30rem;
+  height: 20rem;
+  border: none;
+}
+
+/*---------------- card ----------------*/
+.top_content {
+  margin-top: 3rem;
+  margin-left: 7rem;
+  display: flex;
+  gap: 20px;
+}
+.card {
+  width: 190px;
+  height: 254px;
+  border-radius: 20px;
+  background: #f5f5f5;
+  position: relative;
+  padding: 1.8rem;
+  border: 2px solid #c3c6ce;
+  transition: 0.5s ease-out;
+  overflow: visible;
+}
+
+.card-details img {
+  width: 252px;
+  height: 320px;
+  border-radius: 20px;
+}
+
+.card-details {
+  color: black;
+  height: 100%;
+  gap: 0.5em;
+  display: grid;
+  place-content: center;
+}
+.card h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: #fff;
+  transform: translateY(-8rem);
+  text-align: center;
+}
+
+.card-button {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #008bf8;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+}
+/*Hover*/
+.card:hover {
+  border-color: #008bf8;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+}
+
+.card:hover .card-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+}
+
+.title {
+  margin-top: 70px;
+  font-weight: 800;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.6rem;
+  color: #fff;
+}
+/*------------- mid content  --------------*/
+
+.mid_content {
+  margin-top: 5rem;
+  margin-left: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.card-2 {
+  overflow: hidden;
+  width: calc(25% - 20px);
+  height: 480px;
+  background-color: #eaebed;
+  margin-top: 3rem;
+}
+
+.card-details-2 img {
+  width: 296px;
+  height: 300px;
+}
+.card-details-2 {
+  color: black;
+  height: 100%;
+  gap: 0.5em;
+  display: grid;
+  place-content: center;
+}
+.details {
+  margin-left: 10px;
+  margin-top: -7px;
+  width: fit-content;
+}
+.contact {
+  margin-top: 5rem;
+}
+.contact h1 {
+  color: #fff;
+}
+.about {
+  margin-top: 8rem;
+  background-color: #363949;
+  height: 20rem;
+}
+.about h1 {
+  color: #fff;
+}
+.about-content p {
+  color: #fff;
+}
+.btn {
+  padding: 5px;
+  background-color: #008bf8;
+  border: none;
+  border-radius: 10px;
+  margin-left: 45%;
+  margin-top: 4rem;
+}
+.btn:hover {
+  color: black;
+  background-color: #fff;
+}
+.form h1 {
+  color: #fff;
+}
+.read-more-link {
+  text-decoration: none;
+  width: fit-content;
+
+  color: #fff;
+  background-color: #333;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.add-to-cart-btn {
+  text-decoration: none;
+  color: #fff;
+  background-color: #008bf8;
+  padding: 8px 16px;
+  border-radius: 4px;
+  width: fit-content;
+}
+.add-to-cart-btn :hover {
+  background-color: #27408b;
+}
